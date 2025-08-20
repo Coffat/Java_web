@@ -108,32 +108,3 @@ http://localhost:8080/login-demo/
 4. Xác thực hai yếu tố
 5. Giới hạn số lần đăng nhập thất bại
 6. Sử dụng cơ sở dữ liệu để lưu trữ thông tin người dùng
-
-## Phát triển
-
-### Cấu trúc mã nguồn
-
-- `User.java`: Mô hình đối tượng người dùng
-- `CookieLoginServlet.java`: Xử lý đăng nhập bằng cookie
-- `SessionLoginServlet.java`: Xử lý đăng nhập bằng session
-- `LogoutServlet.java`: Xử lý đăng xuất cho cả hai phương thức
-- `*.jsp`: Các trang giao diện người dùng
-
-### Thêm chức năng mới
-
-1. **Đăng ký tài khoản**: Thêm servlet và JSP để hỗ trợ đăng ký
-2. **Quên mật khẩu**: Thêm chức năng đặt lại mật khẩu
-3. **Phân quyền**: Thêm cơ chế phân quyền người dùng
-4. **Tích hợp DB**: Sử dụng cơ sở dữ liệu để lưu trữ thông tin người dùng
-
-## Giấy phép
-
-Dự án này được phát hành theo giấy phép MIT.
-
-## Tác giả
-
-[Tên của bạn] - [Email của bạn]
-
----
-
-© 2025 Login Demo Application. Đã đăng ký bản quyền.
